@@ -51,6 +51,8 @@ public class MainActivityTest {
             final String text = rule.getActivity().getString(resId, MainActivity.EMOJI);
             onView(withText(text)).check(matches(isDisplayed()));
         }
+
+        // test テスト
     }
 
 }
